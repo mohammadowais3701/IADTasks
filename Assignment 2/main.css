@@ -1,0 +1,27 @@
+
+body {background-color: lightgray;
+    border-style: Solid;
+    border-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color:black;
+    margin:30px 30px 30px 30px;
+    padding:100px 100px 100px 100px;
+}
+.spacing{
+    line-height: 2pt;
+    color: darkblue;
+}
+.imgprop{
+padding-right: 20px;    
+margin-top: -73px;    
+width:4.1cm;
+height:3.56cm;
+margin-right: 12pt;
+    float: right;
+    -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
