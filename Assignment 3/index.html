@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dynamic Resume</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+  
+
+   
+</head>
+<body>
+    <div class="container">  
+        <form id="contact" action="CVwithCSS.html" method="post">
+          <h3>RESUME FORM</h3>
+       <h4>Fill the following fields</h4>
+          <fieldset>
+            <input id="name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input id="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input id="num" placeholder="Your Phone Number " type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input id="add" placeholder="Your Address" type="text" tabindex="4" required>
+          </fieldset>
+       <fieldset>
+         <label>Your Pic</label>   <input id="img" type='file' />
+         
+          </fieldset>
+          <fieldset>
+            <textarea id="obj" placeholder="Your Objective" type="text" tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <input id="s1" placeholder="Skills(Place '-' if you don't have any skills)" type="text" tabindex="6" required><div id="skills" ></div><button onClick="mySkills()"; style="width:30px">+</button>
+          </fieldset>
+          <fieldset>
+            <input id="cp1" placeholder="Course Project(Place '-' if you don't have any skills)" type="text" tabindex="7" required><div id="courseproj" ></div><button onClick="myprojects()"; style="width:30px">+</button>
+          </fieldset>
+          <fieldset>
+            <input id="c1" placeholder="Certificates(Place '-' if you don't have any skills)" type="text" tabindex="8" required><div id="certificate" ></div><button onClick="mycertf()"; style="width:30px">+</button>
+          </fieldset>
+          <fieldset>
+            <input id="oc1" placeholder="Online Certificates(Place '-' if you don't have any skills)" type="text" tabindex="9" required><div id="onlinecertificate" ></div><button onClick="myonlinecertf()"; style="width:30px">+</button>
+          </fieldset>
+          <fieldset >
+            
+                <input id="e1" placeholder="Education(Matriculation)" type="text" tabindex="10" required>
+                <input id="e2" placeholder="Education(Intermediate)" type="text" tabindex="11" required>
+                <input id="e3" placeholder="Education(Graduation)" type="text" tabindex="12" required>
+                <div id="edu" ></div><button onClick="myEducation()"; style="width:30px">+</button>
+            </fieldset>
+            <fieldset>
+              <input id="ac1" placeholder="Achievments(Place '-' if you don't have any skills)" type="text" tabindex="13" required><div id="ach" ></div><button onClick="myach()"; style="width:30px">+</button>
+            </fieldset>
+                <fieldset >
+            <button onClick="locStorage()" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+          
+        </form>
+      </div>
+    
+      <script src='main.js'></script>
+   
+</body>
+</html>
